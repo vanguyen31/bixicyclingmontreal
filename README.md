@@ -33,3 +33,6 @@ To make sure that the data is relevant, I picked the dataset of 2023. (That of 2
 <br>
 **10. EndTimeMs** i.e	1.68139E+12
 <br>
+
+**Data Preprocessing**
+- As both of Start time and End time were recorded as Unix timestamp in miliseconds, I loaded the dataset into PostgreSQL to convert it into a readable format (i.e
